@@ -1,4 +1,4 @@
-package com.valdir.strproducer;
+package com.valdir.strproducer.config;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.admin.AdminClientConfig;
