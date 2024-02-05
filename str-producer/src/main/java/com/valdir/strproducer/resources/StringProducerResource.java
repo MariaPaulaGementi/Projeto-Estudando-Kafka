@@ -20,7 +20,7 @@ public class StringProducerResource {
 
     @PostMapping
     public ResponseEntity<?> sendMessage(@RequestBody String message){
-        producerService.sendMenssage(message);
+        producerService.sendMessage(message);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 }
