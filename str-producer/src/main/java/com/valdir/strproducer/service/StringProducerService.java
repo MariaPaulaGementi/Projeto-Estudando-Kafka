@@ -19,7 +19,7 @@ public class StringProducerService {
     }
 
     public void sendMenssage(String message){
-        log.info("Send message {}", message);
+       // log.info("Send message {}", message);
         kafkaTemplate.send("str-topic", message);
                 //.addCallback(
 //                success -> {
