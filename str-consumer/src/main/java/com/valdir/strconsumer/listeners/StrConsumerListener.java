@@ -1,6 +1,7 @@
 package com.valdir.strconsumer.listeners;
 
 import com.valdir.strconsumer.custom.StrConsumerCustomListener;
+import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,9 +20,11 @@ public class StrConsumerListener {
 //            topicPartitions = {
 //                    @TopicPartition(topic ="srt-topic", partitions = {"0"} )
 //            }, containerFactory = "strContainerFactory")
+    @SneakyThrows
     @StrConsumerCustomListener(groupId = "group-1")
     public void create(String message){
         log.info("Receive message {}", message);
+        throw new IllegalArgumentException("EXCEPTION ...");
     }
 
     @StrConsumerCustomListener(groupId = "group-1")
