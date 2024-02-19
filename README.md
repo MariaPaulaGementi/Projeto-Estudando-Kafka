@@ -14,7 +14,8 @@ Desenvolvendo um código limpo e organizado utilizando práticas Clean Arch e SO
 
 
 <p align="center">🚀 Intuito do Projeto:</p>
-Utilizando o curso "Apache Kafka" disponível na plataforma Udemy, foi aprimorado conseitos de microsserviços utilizando o Apache Kafka.
+Utilizando o curso "Apache Kafka" disponível na plataforma Udemy, foi aprimorado conseitos de microsserviços utilizando o Apache Kafka.  
+
 ![image](https://github.com/MariaPaulaGementi/Projeto-Estudando-Kafka/assets/147748276/26b7981e-09ec-4fa1-a348-446220e67a9e)
 
 Foi desenvolvido um sistema de pagamento com a função de manda e consumir o pagamento enviado por Json.
